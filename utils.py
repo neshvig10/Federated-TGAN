@@ -60,6 +60,6 @@ def get_data():
     train_data_part, partition_all = label_skew(train_data, conf["label_column"][data_name], conf["num_classes"][data_name], conf["num_parties"],
                                            conf["beta"])
 
-    print("各节点数据划分完成")
+    print("The data division of each node is completed")
     return train_data_part, test_data, train_data.columns
 
