@@ -49,7 +49,7 @@ def synthesize(n_sample):
 
     print('data dimensions :{}'.format(data_dim))
 
-    print("lcoal data encoding ....")
+    print("local data encoding ....")
     for key in clients.keys():
         clients[key].data_encoding(transformer)
 
